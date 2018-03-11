@@ -1,4 +1,4 @@
-msm_dir="/opt/msm"
+msm_dir="/home/minecraft/msm"
 msm_user="minecraft"
 msm_user_system=false
 dl_dir="$(mktemp -d -t msm-XXX)"
