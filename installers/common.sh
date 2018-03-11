@@ -1,4 +1,4 @@
-msm_dir="/opt/msm"
+msm_dir="/home/minecraft/msm"
 msm_user="minecraft"
 msm_user_system=false
 dl_dir="$(mktemp -d -t msm-XXX)"
@@ -166,7 +166,7 @@ function install_msm() {
     update_system_packages
     install_dependencies
     create_msm_directories
-    download_latest_files
+    #download_latest_files
     patch_latest_files
     install_config
     install_cron
